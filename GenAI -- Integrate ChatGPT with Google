@@ -1,3 +1,5 @@
+my_key="*****replace by your key******"
+myserpkey="*********replace by your serpapi key***********"
 import os
 os.environ['SERPAPI_API_KEY'] = myserpkey
 from langchain.llms import OpenAI
